@@ -1,0 +1,11 @@
+[package]
+name = "unreact-template"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+serde_json = "1.0.87"
+unreact = "0.1.2"
+
+[dev-dependencies]
+just = "1.8.0"
