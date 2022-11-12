@@ -1,0 +1,23 @@
+<table class="table">
+  {{>STYLE name="table"}}
+
+  <tr class="row head">
+    <th class="item">
+      <h1>Fine</h1>
+    </th>
+    <th class="item">
+      <h1>Limit</h1>
+    </th>
+    <th class="item">
+      <h1>Bad</h1>
+    </th>
+  </tr>
+
+  {{#each table}}
+  <tr class="row body">
+    {{>table_item item=this.0}}
+    {{>table_item item=this.1}}
+    {{>table_item item=this.2}}
+  </tr>
+  {{/each}}
+</table>

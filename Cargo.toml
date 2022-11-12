@@ -1,11 +1,12 @@
 [package]
-name = "unreact-template"
+name = "dog_eat"
 version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+serde = { version = "1.0.147", features = ["derive"] }
 serde_json = "1.0.87"
-unreact = "0.1.2"
+unreact = "0.1.3"
 
 [dev-dependencies]
 just = "1.8.0"

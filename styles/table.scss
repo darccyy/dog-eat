@@ -1,0 +1,39 @@
+.table {
+  .row {
+    background-color: #333;
+    &:nth-child(2n) {
+      background-color: #444;
+    }
+
+    &.head {
+      .item {
+        height: 3em;
+
+        h1 {
+          margin: 0;
+          font-size: 120%;
+        }
+      }
+    }
+
+    &.body {
+      .item {
+        height: 3em;
+        width: 15em;
+        text-align: center;
+
+        p {
+          margin: 0;
+        }
+
+        .name {
+        }
+
+        .extra {
+          font-size: 80%;
+          color: #ccc;
+        }
+      }
+    }
+  }
+}
