@@ -1,0 +1,25 @@
+.table .row {
+  background-color: #333;
+}
+.table .row:nth-child(2n) {
+  background-color: #444;
+}
+.table .row.head .item {
+  height: 3em;
+}
+.table .row.head .item h1 {
+  margin: 0;
+  font-size: 120%;
+}
+.table .row.body .item {
+  height: 3em;
+  width: 15em;
+  text-align: center;
+}
+.table .row.body .item p {
+  margin: 0;
+}
+.table .row.body .item .extra {
+  font-size: 80%;
+  color: #ccc;
+}
